@@ -37,14 +37,18 @@ h1{
 
 }
 
-#submit 
-	{background-color: white;}
-
+#submit{background-color: white;}
 
 #submit:hover
 	 { background-color: black;
        color: white;
 }
+
+#reset{background-color: white;}
+
+#reset:hover
+	 { background-color: black;
+       color: white;}
 
 
 
