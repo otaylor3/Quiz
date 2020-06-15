@@ -151,9 +151,10 @@ const adding = () => {
 //creating final score
 const finalcheck = () => {
  input = document.getElementsByTagName("input");
- var h2 = document.createElement("h2");
- h2.appendChild(document.createTextNode("your score is:"+ adding()));
- document.body.appendChild(h2);
+ var list = document.getElementById("list");
+ var mainlist = document.getElementById("mainlist");
+ list.appendChild(document.createTextNode("your score is:"+ adding()));
+ document.mainlist.appendChild(list);
  
  }
 
